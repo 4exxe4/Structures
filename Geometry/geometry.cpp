@@ -10,7 +10,8 @@ using std::endl;
 //#define TRIANGLE_3
 //#define TRIANGLE_4
 //#define PLUS_MINUS
-#define RHOMBUS
+//#define RHOMBUS
+#define PASCALS_TRIANGLE
 
 void main()
 {
@@ -114,5 +115,9 @@ void main()
 		for (int j = i + 1; j < n; j++)cout << "  "; cout << "/";
 		cout << endl;
 	}
+#endif
+
+#ifdef PASCALS_TRIANGLE
+
 #endif
 }
